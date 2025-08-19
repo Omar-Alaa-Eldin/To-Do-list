@@ -1,34 +1,81 @@
-# To-Do list
+# ✅ To-Do List (Python CLI Application)
 #### Video Demo:  <URL https://youtu.be/Vu4qAbgwYU4>
-#### Description:
-This project is a simple to-do list program to help anyone organize and remember daily tasks.
-It's just a simple terminal program written by Python.
-when you run the program you will see the allowed options, there are four options:
+
+
+![To-Do List Cover](A_2D_digital_illustration_showcases_a_terminal-bas.png)
+
+
+A simple and interactive **Command-Line To-Do List Application** built in **Python**.  
+This program helps users manage their tasks by allowing them to add new tasks with notes, mark tasks as complete, and view the entire task list with status indicators.  
+
+---
+
+## 📖 Program Description
+
+This To-Do List application was created as a **productivity tool** to practice working with **lists, dictionaries, user input handling, and modular programming** in Python.  
+
+It features a **menu-driven interface** that runs in the terminal, making it lightweight and simple to use.  
+
+### Features
+- ➕ **Add tasks** with custom notes.  
+- ✔ **Mark tasks as complete** with error handling for invalid inputs.  
+- 📋 **View tasks** with clear status indicators:  
+  - `✔` Completed tasks  
+  - `❌` Incomplete tasks  
+- 🛡️ **Robust input validation** (handles invalid indexes and empty lists).  
+- 🔄 Continuous menu loop until the user chooses to quit.  
+
+---
+
+## ⚙️ Program Flow
+
+1. **Main Menu Options**
+   - `1` → Add a new task.  
+   - `2` → Mark an existing task as complete.  
+   - `3` → View all tasks.  
+   - `4` → Quit the program.  
+
+2. **Adding a Task**
+   - Prompts the user for:
+     - Task name
+     - Task note/description  
+   - Saves the task with default status `❌ Incomplete`.
+
+3. **Marking a Task as Complete**
+   - Displays a list of all incomplete tasks.  
+   - Prompts the user to select a task by index.  
+   - Marks the selected task as `✔ Complete`.
+
+4. **Viewing Tasks**
+   - Shows all tasks with their status (`✔` or `❌`).  
+   - Allows the user to view task details (task name + note).  
+
+---
+
+## 🖥️ Example Run
+
+```bash
 1 - add tasks to a list
 2 - mark task as complete
 3 - view tasks
 4 - Quit
-you need to write an option number from 1 to 4 only and if you write anything else error message will appear and choose again.
-The error massage "Invalid choice, please enter a number between 1 and 4" will apear if you writ anything rather than numbers of the option and the option apears again to choose of them.
+Enter your choice: 1
+Enter the task: Study Python
+Enter the task note: Read chapter 5
+Task added to the list successfully
 
-#### add tasks to a list:
-to add task to the task list choos option 1 the program asks you about the task name with this massage "Enter the task: " write the name of the task to save it in the list and then the program ask for task note with this massage "Enter the task note: " write the any information or any not about the task you want to save or you can press enter to leav the task note empty.
-after that the task will be added to the list with status not complete as the default status and this massage will apear "Task added to the list sucsessfully".
-if you
-Then the options list will appear again to choose another option.
-
-#### mark task as complete:
-When you finish any task choos option 2 to change its status the program view a list of all noncomplete task only with it's notes, the completed task will not apear in this list, you need to choose the number of the task you want to mark as complete, a message "Task {task_name} marked as complete" will appear and the task status change to completed, the main option list will appear again to choose other option.
-if you enter a number not excit in the task list this error message "Invalid index, please enter a number in the list" will apear or if you enter a nonnumber value this error message "Invalid index, please enter a number" will apear and in the two case the main option list will apear.
-
-#### view tasks:
-When choosing option 3 the program views a list of all tasks names with its status as a right sign for a completed task and an x sign for a noncomplete task.
-if you want to see the information about any task writ the task number and the task will apear with its status and the its note in the second line.
-if you enter a number not excit in the task list this error message "Invalid index, please enter a number in the list" will apear or if you enter a nonnumber value this error message "Invalid index, please enter a number" will apear and in the two case the main option list will apear.
-after that the main option list will apear to choose another one.
-
-
+1 - add tasks to a list
+2 - mark task as complete
+3 - view tasks
+4 - Quit
+Enter your choice: 3
+The tasks are:
+1. Study Python = ❌
+Enter the index of the task to view: 1
+Task: Study Python = ❌
+Note: Read chapter 5
 #### Quit:
 The last option will exit the program and the tasks list will clear.
+
 
 
