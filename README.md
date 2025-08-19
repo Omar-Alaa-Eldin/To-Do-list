@@ -2,7 +2,7 @@
 #### Video Demo:  <URL https://youtu.be/Vu4qAbgwYU4>
 
 
-![To-Do List Cover]([A_2D_digital_illustration_showcases_a_terminal-bas.png](https://github.com/Omar-Alaa-Eldin/To-Do-list/blob/main/ChatGPT%20Image%20Aug%2019%2C%202025%2C%2003_39_22%20PM.png))
+![To-Do List Cover](https://github.com/Omar-Alaa-Eldin/To-Do-list/blob/main/ChatGPT%20Image%20Aug%2019%2C%202025%2C%2003_39_22%20PM.png)
 
 
 A simple and interactive **Command-Line To-Do List Application** built in **Python**.  
@@ -76,6 +76,7 @@ Task: Study Python = ❌
 Note: Read chapter 5
 #### Quit:
 The last option will exit the program and the tasks list will clear.
+
 
 
 
